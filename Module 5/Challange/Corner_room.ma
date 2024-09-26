@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Corner_room.ma
-//Last modified: Thu, Sep 26, 2024 09:14:44 AM
+//Last modified: Thu, Sep 26, 2024 09:14:58 AM
 //Codeset: 1252
 requires maya "2024";
 requires "stereoCamera" "10.0";
@@ -14,7 +14,7 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Windows 10 Pro v2009 (Build: 19045)";
-fileInfo "UUID" "80A2ADFB-487B-C863-A71E-83B7559011FD";
+fileInfo "UUID" "B7C8F5D7-4D72-1DCE-FB6F-9EAE9AC3F690";
 createNode transform -s -n "persp";
 	rename -uid "EB6DD354-4C68-BCAF-3394-DB900876FD27";
 	setAttr ".v" no;
@@ -18474,7 +18474,7 @@ createNode aiPhysicalSky -n "aiPhysicalSky1";
 	setAttr ".sun_tint" -type "float3" 1 0.85700631 0.421 ;
 	setAttr ".intensity" 6;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "AD96F334-4BD4-5309-342F-E8A8E32AD651";
+	rename -uid "16748228-48A8-1F74-EEE0-7D85240A4071";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 92;
