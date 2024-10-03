@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Outdoor_scene_.ma
-//Last modified: Thu, Oct 03, 2024 12:57:28 PM
+//Last modified: Thu, Oct 03, 2024 01:00:11 PM
 //Codeset: 1252
 requires maya "2024";
 requires "stereoCamera" "10.0";
@@ -13,7 +13,7 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Windows 10 Pro v2009 (Build: 19045)";
-fileInfo "UUID" "CA28109B-4A42-DC6A-70EF-2EA9C691A08E";
+fileInfo "UUID" "2F56D36F-4E2D-A1E4-2B46-F89BFFC5EAFD";
 fileInfo "license" "education";
 createNode transform -n "group2";
 	rename -uid "967E7FB8-431D-C736-82C8-D09F48034A52";
@@ -44,14 +44,14 @@ createNode mesh -n "pCubeShape25" -p "pCube25";
 createNode transform -s -n "persp";
 	rename -uid "EB03AAF7-4636-0095-C08D-7C970726E127";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 11.842882501538469 14.441224453039968 -14.883990471669483 ;
+	setAttr ".t" -type "double3" 17.855648799367351 20.501223396586681 -21.468809784661929 ;
 	setAttr ".r" -type "double3" -34.200000000001538 497.59999999994318 0 ;
 	setAttr ".rpt" -type "double3" 5.7362390377318258e-17 1.683716924196488e-17 -5.6823725119234451e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "1215CF85-4D31-F8FA-C130-D59F631BAE87";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 23.673449289901889;
+	setAttr ".coi" 34.454766052378183;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -8316,7 +8316,7 @@ createNode shadingEngine -n "blinn4SG";
 createNode materialInfo -n "materialInfo12";
 	rename -uid "391AD0DE-435A-88AD-633C-EABF54B86BB2";
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "7C576BFF-4DC9-2FB8-2C2C-789E73815F8F";
+	rename -uid "9512C31E-44F5-D227-4B7A-97B43AE40D65";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;
